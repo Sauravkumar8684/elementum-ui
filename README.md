@@ -1,57 +1,36 @@
-# 🚀 Elementum UI (React + Docker)
+# React Dockerized Application
 
-This project is a Figma-based UI built using React.js and deployed using Docker.
+This is a React-based web application containerized using Docker for easy setup and deployment.
 
----
+## 🚀 Features
 
-## 📦 Tech Stack
+* Built with React
+* Production build using Docker
+* Lightweight and easy to run
 
-* React.js
-* CSS3
-* Docker
+## 🐳 How to Run with Docker
 
----
+### Step 1: Clone or Download the Project
 
-## 🐳 Run with Docker
+### Step 2: Run the following command:
 
-### 1️⃣ Build Docker Image
+docker-compose up --build
 
-```bash
-docker build -t elementum-app .
-```
-
-### 2️⃣ Run Docker Container
-
-```bash
-docker run -p 3000:3000 elementum-app
-```
-
----
-
-## 🌐 Open in Browser
+### Step 3: Open in browser:
 
 http://localhost:3000
 
----
+## 📦 Project Structure
 
-## 📁 Project Structure
+* src/ → React components
+* public/ → Static files
+* Dockerfile → Docker configuration
+* docker-compose.yml → Multi-container setup
 
-* src/
-* public/
-* Dockerfile
-* .dockerignore
+## ⚙️ Requirements
 
----
-
-## ✨ Features
-
-* Pixel-perfect UI from Figma
-* Responsive layout
-* Clean component-based architecture
-* Dockerized for easy deployment
-
----
+* Docker installed on your system
 
 ## 👨‍💻 Author
 
-Murari Kumar
+Murari kumar
