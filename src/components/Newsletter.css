@@ -1,0 +1,56 @@
+.newsletter {
+  padding: 100px 10%;
+  background: #cfe3d6;
+  text-align: center;
+}
+
+/* TOP */
+.news-top h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+}
+
+.news-top p {
+  margin: 15px 0 25px;
+  color: #444;
+}
+
+.subscribe-btn {
+  background: black;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-btn:hover {
+  transform: scale(1.05);
+}
+
+/* DIVIDER */
+hr {
+  margin: 60px 0;
+  border: none;
+  border-top: 1px solid #999;
+}
+
+/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: left;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 6px 0;
+  color: #333;
+  font-size: 14px;
+}
